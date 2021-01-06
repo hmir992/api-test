@@ -1,0 +1,406 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "required": [
+    "total_count",
+    "incomplete_results",
+    "items"
+  ],
+  "properties": {
+    "total_count": {
+      "$id": "#/properties/total_count"
+    },
+    "incomplete_results": {
+      "$id": "#/properties/incomplete_results"
+    },
+    "items": {
+      "$id": "#/properties/items",
+      "items": {
+        "$id": "#/properties/items/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/items/items/anyOf/0",
+            "required": [
+              "id",
+              "node_id",
+              "name",
+              "full_name",
+              "private",
+              "owner",
+              "html_url",
+              "description",
+              "fork",
+              "url",
+              "forks_url",
+              "keys_url",
+              "collaborators_url",
+              "teams_url",
+              "hooks_url",
+              "issue_events_url",
+              "events_url",
+              "assignees_url",
+              "branches_url",
+              "tags_url",
+              "blobs_url",
+              "git_tags_url",
+              "git_refs_url",
+              "trees_url",
+              "statuses_url",
+              "languages_url",
+              "stargazers_url",
+              "contributors_url",
+              "subscribers_url",
+              "subscription_url",
+              "commits_url",
+              "git_commits_url",
+              "comments_url",
+              "issue_comment_url",
+              "contents_url",
+              "compare_url",
+              "merges_url",
+              "archive_url",
+              "downloads_url",
+              "issues_url",
+              "pulls_url",
+              "milestones_url",
+              "notifications_url",
+              "labels_url",
+              "releases_url",
+              "deployments_url",
+              "created_at",
+              "updated_at",
+              "pushed_at",
+              "git_url",
+              "ssh_url",
+              "clone_url",
+              "svn_url",
+              "homepage",
+              "size",
+              "stargazers_count",
+              "watchers_count",
+              "language",
+              "has_issues",
+              "has_projects",
+              "has_downloads",
+              "has_wiki",
+              "has_pages",
+              "forks_count",
+              "mirror_url",
+              "archived",
+              "disabled",
+              "open_issues_count",
+              "license",
+              "forks",
+              "open_issues",
+              "watchers",
+              "default_branch",
+              "score"
+            ],
+            "properties": {
+              "id": {
+                "type": "number",
+                "$id": "#/properties/items/items/anyOf/0/properties/id"
+              },
+              "node_id": {
+                "type": "string",
+                "$id": "#/properties/items/items/anyOf/0/properties/node_id"
+              },
+              "name": {
+                "$id": "#/properties/items/items/anyOf/0/properties/name"
+              },
+              "full_name": {
+                "$id": "#/properties/items/items/anyOf/0/properties/full_name"
+              },
+              "private": {
+                "$id": "#/properties/items/items/anyOf/0/properties/private"
+              },
+              "owner": {
+                "$id": "#/properties/items/items/anyOf/0/properties/owner",
+                "required": [
+                  "login",
+                  "id",
+                  "node_id",
+                  "avatar_url",
+                  "gravatar_id",
+                  "url",
+                  "html_url",
+                  "followers_url",
+                  "following_url",
+                  "gists_url",
+                  "starred_url",
+                  "subscriptions_url",
+                  "organizations_url",
+                  "repos_url",
+                  "events_url",
+                  "received_events_url",
+                  "type",
+                  "site_admin"
+                ],
+                "properties": {
+                  "login": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/login"
+                  },
+                  "id": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/id"
+                  },
+                  "node_id": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/node_id"
+                  },
+                  "avatar_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/avatar_url"
+                  },
+                  "gravatar_id": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/gravatar_id"
+                  },
+                  "url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/url"
+                  },
+                  "html_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/html_url"
+                  },
+                  "followers_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/followers_url"
+                  },
+                  "following_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/following_url"
+                  },
+                  "gists_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/gists_url"
+                  },
+                  "starred_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/starred_url"
+                  },
+                  "subscriptions_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/subscriptions_url"
+                  },
+                  "organizations_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/organizations_url"
+                  },
+                  "repos_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/repos_url"
+                  },
+                  "events_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/events_url"
+                  },
+                  "received_events_url": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/received_events_url"
+                  },
+                  "type": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/type"
+                  },
+                  "site_admin": {
+                    "$id": "#/properties/items/items/anyOf/0/properties/owner/properties/site_admin"
+                  }
+                }
+              },
+              "html_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/html_url"
+              },
+              "description": {
+                "$id": "#/properties/items/items/anyOf/0/properties/description"
+              },
+              "fork": {
+                "$id": "#/properties/items/items/anyOf/0/properties/fork"
+              },
+              "url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/url"
+              },
+              "forks_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/forks_url"
+              },
+              "keys_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/keys_url"
+              },
+              "collaborators_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/collaborators_url"
+              },
+              "teams_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/teams_url"
+              },
+              "hooks_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/hooks_url"
+              },
+              "issue_events_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/issue_events_url"
+              },
+              "events_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/events_url"
+              },
+              "assignees_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/assignees_url"
+              },
+              "branches_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/branches_url"
+              },
+              "tags_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/tags_url"
+              },
+              "blobs_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/blobs_url"
+              },
+              "git_tags_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/git_tags_url"
+              },
+              "git_refs_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/git_refs_url"
+              },
+              "trees_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/trees_url"
+              },
+              "statuses_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/statuses_url"
+              },
+              "languages_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/languages_url"
+              },
+              "stargazers_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/stargazers_url"
+              },
+              "contributors_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/contributors_url"
+              },
+              "subscribers_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/subscribers_url"
+              },
+              "subscription_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/subscription_url"
+              },
+              "commits_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/commits_url"
+              },
+              "git_commits_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/git_commits_url"
+              },
+              "comments_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/comments_url"
+              },
+              "issue_comment_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/issue_comment_url"
+              },
+              "contents_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/contents_url"
+              },
+              "compare_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/compare_url"
+              },
+              "merges_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/merges_url"
+              },
+              "archive_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/archive_url"
+              },
+              "downloads_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/downloads_url"
+              },
+              "issues_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/issues_url"
+              },
+              "pulls_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/pulls_url"
+              },
+              "milestones_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/milestones_url"
+              },
+              "notifications_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/notifications_url"
+              },
+              "labels_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/labels_url"
+              },
+              "releases_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/releases_url"
+              },
+              "deployments_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/deployments_url"
+              },
+              "created_at": {
+                "$id": "#/properties/items/items/anyOf/0/properties/created_at"
+              },
+              "updated_at": {
+                "$id": "#/properties/items/items/anyOf/0/properties/updated_at"
+              },
+              "pushed_at": {
+                "$id": "#/properties/items/items/anyOf/0/properties/pushed_at"
+              },
+              "git_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/git_url"
+              },
+              "ssh_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/ssh_url"
+              },
+              "clone_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/clone_url"
+              },
+              "svn_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/svn_url"
+              },
+              "homepage": {
+                "$id": "#/properties/items/items/anyOf/0/properties/homepage"
+              },
+              "size": {
+                "$id": "#/properties/items/items/anyOf/0/properties/size"
+              },
+              "stargazers_count": {
+                "$id": "#/properties/items/items/anyOf/0/properties/stargazers_count"
+              },
+              "watchers_count": {
+                "$id": "#/properties/items/items/anyOf/0/properties/watchers_count"
+              },
+              "language": {
+                "$id": "#/properties/items/items/anyOf/0/properties/language"
+              },
+              "has_issues": {
+                "$id": "#/properties/items/items/anyOf/0/properties/has_issues"
+              },
+              "has_projects": {
+                "$id": "#/properties/items/items/anyOf/0/properties/has_projects"
+              },
+              "has_downloads": {
+                "$id": "#/properties/items/items/anyOf/0/properties/has_downloads"
+              },
+              "has_wiki": {
+                "$id": "#/properties/items/items/anyOf/0/properties/has_wiki"
+              },
+              "has_pages": {
+                "$id": "#/properties/items/items/anyOf/0/properties/has_pages"
+              },
+              "forks_count": {
+                "$id": "#/properties/items/items/anyOf/0/properties/forks_count"
+              },
+              "mirror_url": {
+                "$id": "#/properties/items/items/anyOf/0/properties/mirror_url"
+              },
+              "archived": {
+                "$id": "#/properties/items/items/anyOf/0/properties/archived"
+              },
+              "disabled": {
+                "$id": "#/properties/items/items/anyOf/0/properties/disabled"
+              },
+              "open_issues_count": {
+                "$id": "#/properties/items/items/anyOf/0/properties/open_issues_count"
+              },
+              "license": {
+                "$id": "#/properties/items/items/anyOf/0/properties/license"
+              },
+              "forks": {
+                "$id": "#/properties/items/items/anyOf/0/properties/forks"
+              },
+              "open_issues": {
+                "$id": "#/properties/items/items/anyOf/0/properties/open_issues"
+              },
+              "watchers": {
+                "$id": "#/properties/items/items/anyOf/0/properties/watchers"
+              },
+              "default_branch": {
+                "$id": "#/properties/items/items/anyOf/0/properties/default_branch"
+              },
+              "score": {
+                "$id": "#/properties/items/items/anyOf/0/properties/score"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
